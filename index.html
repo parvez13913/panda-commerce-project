@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda-Commerce-Site</title>
     <!---------------------------- 
+        Panda Favicon Link 
+    ----------------------------->
+      <link rel="shortcut icon" href="images/panda-favicon.png" type="image/x-icon">
+
+    <!---------------------------- 
+        Local Bootstrap Link 
+    -----------------------------> 
+    <!-----------------------------
         Local Bootstrap Link  
     ----------------------------->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -36,13 +44,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link">Backpack</a>
+                    <a class="nav-link" href="#backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link">Subscribe</a>
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
                   </li>
                 </ul>
               </div>
@@ -152,7 +160,7 @@
         <!--------------------- 
             Start Card 
         ---------------------->
-        <section class="container">
+        <section class="container" id="shoes">
             <h1 class="my-5">Shoes</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col-lg-4 col-md-6 col-12">
@@ -193,7 +201,7 @@
         <!--------------------- 
             Start Backpack 
         ---------------------->
-        <section class="container">
+        <section class="container" id="backpack">
             <h1 class="my-5">Backpack</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col-lg-4 col-md-6 col-12">
@@ -231,7 +239,7 @@
                 </div>
               </div>
         </section>
-        <section class="container my-5 text-center panda-bg-success p-5">
+        <section class="container my-5 text-center panda-bg-success p-5" id="subscribe">
             <h1>LET'S STAY IN TOUCH</h1>
             <p>Get updates on sales, specials and more</p>
             <input type="email" placeholder="Enter Your Email">
